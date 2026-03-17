@@ -8,31 +8,31 @@ const Cursos = () => {
   const courses = [
     {
       id: 1,
-      title: 'Canto Profesional',
+      title: 'Curso de Especialidad',
       instructor: 'Nombre Apellido',
-      price: 120000,
-      subscription: 25000,
-      duration: '45 min/clase',
-      promotion: '20% off primer mes',
+      price: 0,
+      subscription: 0,
+      duration: '00 min/clase',
+      promotion: 'Promoción especial',
       image: 'https://images.unsplash.com/photo-1516280440614-37939bbacd81?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
     },
     {
       id: 2,
-      title: 'Piano Clásico y Moderno',
+      title: 'Técnica e Interpretación',
       instructor: 'Nombre Apellido',
-      price: 135000,
-      subscription: 25000,
-      duration: '60 min/clase',
+      price: 0,
+      subscription: 0,
+      duration: '00 min/clase',
       promotion: null,
       image: 'https://images.unsplash.com/photo-1520527053377-47393db93b2e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
     },
     {
       id: 3,
-      title: 'Guitarra Eléctrica/Acústica',
+      title: 'Clases Particulares',
       instructor: 'Nombre Apellido',
-      price: 110000,
-      subscription: 20000,
-      duration: '50 min/clase',
+      price: 0,
+      subscription: 0,
+      duration: '00 min/clase',
       promotion: 'Matrícula Gratis',
       image: 'https://images.unsplash.com/photo-1525201548942-d8732f6617a0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
     }
