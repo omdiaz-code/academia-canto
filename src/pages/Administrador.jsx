@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { LayoutDashboard, LogIn, Upload, Image as ImageIcon, Video, LogOut, Settings } from 'lucide-react';
 
-const Admin = () => {
+const Administrador = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [user, setUser] = useState({ username: '', password: '' });
   const [activeView, setActiveView] = useState('dashboard');
@@ -144,4 +144,4 @@ const Admin = () => {
   );
 };
 
-export default Admin;
+export default Administrador;

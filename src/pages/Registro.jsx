@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { Send, CheckCircle2 } from 'lucide-react';
 import { useState } from 'react';
 
-const Registration = () => {
+const Registro = () => {
   const [submitted, setSubmitted] = useState(false);
   
   const handleSubmit = (e) => {
@@ -96,4 +96,4 @@ const Registration = () => {
   );
 };
 
-export default Registration;
+export default Registro;

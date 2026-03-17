@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Image as ImageIcon, Video, Camera, PlayCircle, FolderOpen, ChevronRight } from 'lucide-react';
 
-const Gallery = () => {
+const Galeria = () => {
   const [activeTab, setActiveTab] = useState('all');
   const [selectedFolder, setSelectedFolder] = useState(null);
 
@@ -126,4 +126,4 @@ const Gallery = () => {
   );
 };
 
-export default Gallery;
+export default Galeria;

@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { Play, Music, Mic2, Star, ChevronRight, Leaf } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
-const Home = () => {
+const Inicio = () => {
   return (
     <div className="home-page">
       <section style={{ 
@@ -109,4 +109,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Inicio;

@@ -3,7 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { Music, Menu, X, Leaf, Sun, Moon } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
-const Navbar = ({ theme, toggleTheme }) => {
+const Navegacion = ({ theme, toggleTheme }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const location = useLocation();
@@ -103,4 +103,4 @@ const Navbar = ({ theme, toggleTheme }) => {
   );
 };
 
-export default Navbar;
+export default Navegacion;

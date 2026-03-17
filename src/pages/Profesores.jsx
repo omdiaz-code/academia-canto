@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { Star, GraduationCap, Award } from 'lucide-react';
 
-const Teachers = () => {
+const Profesores = () => {
   const teachers = [
     {
       name: 'Nombre Apellido',
@@ -64,4 +64,4 @@ const Teachers = () => {
   );
 };
 
-export default Teachers;
+export default Profesores;

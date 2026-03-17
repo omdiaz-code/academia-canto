@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { CreditCard, ShieldCheck, Loader2 } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
-const Payment = () => {
+const Pago = () => {
   const [course, setCourse] = useState(null);
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
@@ -102,4 +102,4 @@ const Payment = () => {
   );
 };
 
-export default Payment;
+export default Pago;

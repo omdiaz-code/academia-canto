@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { Tag, Sparkles, Star, Calendar } from 'lucide-react';
 
-const Values = () => {
+const Valores = () => {
   const values = [
     { title: 'Excelencia', text: 'Buscamos el máximo potencial en cada alumno.', icon: <Star /> },
     { title: 'Pasión', text: 'Amamos lo que hacemos y lo transmitimos.', icon: <Sparkles /> },
@@ -63,4 +63,4 @@ const Values = () => {
   );
 };
 
-export default Values;
+export default Valores;

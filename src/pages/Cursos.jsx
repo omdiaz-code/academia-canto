@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { Music, BookOpen, Clock, CreditCard, ChevronRight } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
-const Courses = () => {
+const Cursos = () => {
   const navigate = useNavigate();
   
   const courses = [
@@ -121,4 +121,4 @@ const Courses = () => {
   );
 };
 
-export default Courses;
+export default Cursos;

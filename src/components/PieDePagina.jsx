@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { Mail, Phone, MapPin, Instagram, Facebook, Youtube } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
-const Footer = () => {
+const PieDePagina = () => {
   return (
     <footer style={{ backgroundColor: 'var(--footer-bg)', color: 'var(--footer-text)', padding: 'var(--spacing-xl) 0 2rem' }}>
       <div className="container">
@@ -58,4 +58,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default PieDePagina;
