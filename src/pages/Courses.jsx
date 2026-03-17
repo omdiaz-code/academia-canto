@@ -9,7 +9,7 @@ const Courses = () => {
     {
       id: 1,
       title: 'Canto Profesional',
-      instructor: 'Elena Valdivia',
+      instructor: 'Nombre Apellido',
       price: 120000,
       subscription: 25000,
       duration: '45 min/clase',
@@ -19,7 +19,7 @@ const Courses = () => {
     {
       id: 2,
       title: 'Piano Clásico y Moderno',
-      instructor: 'Ricardo Soto',
+      instructor: 'Nombre Apellido',
       price: 135000,
       subscription: 25000,
       duration: '60 min/clase',
@@ -29,7 +29,7 @@ const Courses = () => {
     {
       id: 3,
       title: 'Guitarra Eléctrica/Acústica',
-      instructor: 'Marcos Herrera',
+      instructor: 'Nombre Apellido',
       price: 110000,
       subscription: 20000,
       duration: '50 min/clase',

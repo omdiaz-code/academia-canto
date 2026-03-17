@@ -4,21 +4,21 @@ import { Star, GraduationCap, Award } from 'lucide-react';
 const Teachers = () => {
   const teachers = [
     {
-      name: 'Elena Valdivia',
+      name: 'Nombre Apellido',
       specialty: 'Canto Lírico y Popular',
-      bio: 'Soprano con 15 años de trayectoria en teatros nacionales. Especialista en técnica vocal y cuidado de la voz.',
+      bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       image: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80'
     },
     {
-      name: 'Ricardo Soto',
+      name: 'Nombre Apellido',
       specialty: 'Piano y Composición',
-      bio: 'Graduado del Conservatorio Nacional. Compositor de bandas sonoras y amante del jazz moderno.',
+      bio: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.',
       image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80'
     },
     {
-      name: 'Marcos Herrera',
+      name: 'Nombre Apellido',
       specialty: 'Guitarra y Bajo',
-      bio: 'Músico de sesión con giras internacionales. Experto en improvisación y teoría musical aplicada.',
+      bio: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80'
     }
   ];
