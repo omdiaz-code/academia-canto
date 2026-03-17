@@ -24,7 +24,7 @@ function App() {
   };
 
   return (
-    <Router>
+    <Router basename="/academia-canto">
       <div className="app-wrapper">
         <Navbar theme={theme} toggleTheme={toggleTheme} />
         <main>
